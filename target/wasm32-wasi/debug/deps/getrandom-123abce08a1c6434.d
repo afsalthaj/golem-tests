@@ -1,0 +1,11 @@
+/Users/afsalthaj/shopping_cart/target/wasm32-wasi/debug/deps/libgetrandom-123abce08a1c6434.rmeta: /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/lib.rs /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error.rs /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/util.rs /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error_impls.rs /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/wasi.rs
+
+/Users/afsalthaj/shopping_cart/target/wasm32-wasi/debug/deps/libgetrandom-123abce08a1c6434.rlib: /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/lib.rs /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error.rs /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/util.rs /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error_impls.rs /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/wasi.rs
+
+/Users/afsalthaj/shopping_cart/target/wasm32-wasi/debug/deps/getrandom-123abce08a1c6434.d: /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/lib.rs /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error.rs /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/util.rs /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error_impls.rs /Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/wasi.rs
+
+/Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/lib.rs:
+/Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error.rs:
+/Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/util.rs:
+/Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error_impls.rs:
+/Users/afsalthaj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/wasi.rs:
