@@ -28,6 +28,10 @@ interface api {
 
   add-item: func(item: product-item) -> option<u32>;
 
+  add-item-result: func(item: result<product-item, string>) -> option<u32>;
+
+  add-item-option: func(item: option<product-item>) -> option<u32>;
+
   add-item-failed: func(item: product-item) -> option<u32>;
 
   remove-item: func(product-id: string) -> result<string, string>;
@@ -41,6 +45,10 @@ interface api {
   get-cart-contents: func() -> list<product-item>;
 
   get-cart-contents-failed: func() -> result<list<product-item>, string>;
+
+  get-cart-contents-option-some: func() -> option<u32>;
+
+  get-cart-contents-option-none: func() -> option<u32>;
 
 }
 

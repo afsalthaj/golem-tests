@@ -104,6 +104,56 @@ impl Guest for Component {
         None
     }
 
+    fn add_item_result(item: Result<ProductItem, String>) -> Option<u32> {
+        match item {
+            Ok(item) => {
+                with_state(|state| {
+                    println!(
+                        "Adding item {:?} to the cart of user {}",
+                        item, state.user_id
+                    );
+
+                    state.items.push(item);
+                });
+
+                Some(1)
+            }
+            Err(err) => {
+                println!("Failed to add item to cart: {}", err);
+                None
+            }
+        }
+    }
+
+    fn get_cart_contents_option_some() -> Option<u32> {
+        Some(1)
+    }
+
+    fn get_cart_contents_option_none() -> Option<u32> {
+        None
+    }
+
+    fn add_item_option(item: Option<ProductItem>,) -> Option<u32> {
+        match item {
+            Some(item) => {
+                with_state(|state| {
+                    println!(
+                        "Adding item {:?} to the cart of user {}",
+                        item, state.user_id
+                    );
+
+                    state.items.push(item);
+                });
+
+                Some(1)
+            }
+            None => {
+                println!("Failed to add item to cart");
+                Some(2)
+            }
+        }
+    }
+
     fn remove_item(product_id: String) -> Result<String, String> {
         with_state(|state| {
             println!(
